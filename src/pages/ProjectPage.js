@@ -6,7 +6,7 @@ import { projectsList } from "../helpers/ProjectList";
 
 const ProjectPage = () => {
     const { id } = useParams();
-    const { project } = projectsList[id];
+    const  project  = projectsList[id];
     return (
         <main className="section">
             <div className="container">
